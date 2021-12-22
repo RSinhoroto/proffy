@@ -75,3 +75,16 @@
   background: var(--color-secondary-dark);
   margin-right: 0;
 }
+
+.total-connections {
+  margin-top: 1.8rem;
+  font-size: 1.8rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-connections img {
+  margin-left: 0.8rem;
+}

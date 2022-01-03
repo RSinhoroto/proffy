@@ -1,7 +1,3 @@
-:root {
-  font-size: 40%;
-}
-
 #page-landing {
   background: var(--color-primary);
   color: var(--color-text-in-primary);
@@ -89,6 +85,12 @@
   margin-left: 0.8rem;
 }
 
+@media (max-width: 700px) {
+  :root {
+    font-size: 40%;
+  }
+}
+
 
 @media (min-width: 1100px) {
   #page-landing #container {
@@ -100,21 +102,23 @@
     grid-template-areas: 
       "proffy image image"
       "button button texting";
-    gap: 60px;
+    gap: 87px;
   }
 
   .logo-container {
     grid-area: proffy;
     text-align: initial;
     align-self: center;
+    margin: 0;
   }
 
   .logo-container img {
-    height: 100%;
+    height: 127px;
   }
 
   .hero-image {
     grid-area: image;
+    height: 350px;
   }
 
   .buttons-container {
@@ -126,6 +130,7 @@
   .total-connections {
     grid-area: texting;
     justify-self: end;
+    font-size: 1.2rem;
   }
 
 }

@@ -27,6 +27,3 @@ module.exports = {
   pageStudy,
   pageGiveClasses
 }
-
-
-/*CONTINUE FROM 1H46*/
